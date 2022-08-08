@@ -16,6 +16,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
       'email',
       'description',
       'date_joined',
+      # 'moderation_level',
     )
   
   def get_first_name(self, obj):
